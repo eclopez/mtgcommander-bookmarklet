@@ -5,21 +5,27 @@ body
 center
   text-align: left
   div#header
-    color: #000
-    position: auto
-    background: none
+    position: relative
+    width: auto
+    height: auto
+    top: auto
+    left: auto
+    background: none !important
+    color: #000 !important
     h1
-      position: auto
-      top: auto
+      position: relative
+      top: auto !important
     & + div
-      position: auto
-      margin: 0
+      position: relative
+      margin: 0 !important
       table tbody tr
         td:not(:nth-child(2))
           display: none
         td > #bgcontent
           background: none
           & > div
-            position: auto
-            top: auto
-            margin: 0
+            position: relative
+            top: auto !important
+            margin: 0 !important
+            & + font
+              display: none

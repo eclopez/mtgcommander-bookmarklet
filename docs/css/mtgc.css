@@ -5,20 +5,26 @@ body {
 center {
   text-align: left; }
   center div#header {
-    color: #000;
-    position: auto;
-    background: none; }
+    position: relative;
+    width: auto;
+    height: auto;
+    top: auto;
+    left: auto;
+    background: none !important;
+    color: #000 !important; }
     center div#header h1 {
-      position: auto;
-      top: auto; }
+      position: relative;
+      top: auto !important; }
     center div#header + div {
-      position: auto;
-      margin: 0; }
+      position: relative;
+      margin: 0 !important; }
       center div#header + div table tbody tr td:not(:nth-child(2)) {
         display: none; }
       center div#header + div table tbody tr td > #bgcontent {
         background: none; }
         center div#header + div table tbody tr td > #bgcontent > div {
-          position: auto;
-          top: auto;
-          margin: 0; }
+          position: relative;
+          top: auto !important;
+          margin: 0 !important; }
+          center div#header + div table tbody tr td > #bgcontent > div + font {
+            display: none; }
