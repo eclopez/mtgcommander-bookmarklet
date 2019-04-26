@@ -1,2 +1,25 @@
 body
-  background-color: Red !important
+  margin: 0
+  background-color: transparent
+
+center
+  text-align: left
+  div#header
+    color: #000
+    position: auto
+    background: none
+    h1
+      position: auto
+      top: auto
+    & + div
+      position: auto
+      margin: 0
+      table tbody tr
+        td:not(:nth-child(2))
+          display: none
+        td > #bgcontent
+          background: none
+          & > div
+            position: auto
+            top: auto
+            margin: 0
