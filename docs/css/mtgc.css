@@ -20,9 +20,9 @@ center {
       center div#header + div > table tbody tr td[rowspan="4"] {
         display: none; }
       center div#header + div > table tbody tr td > #bgcontent {
+        max-width: none !important;
         background: none; }
         center div#header + div > table tbody tr td > #bgcontent > div {
-          position: relative;
           top: auto !important;
           margin: 0 !important; }
           center div#header + div > table tbody tr td > #bgcontent > div + font {
