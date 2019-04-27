@@ -39,7 +39,7 @@ body
   center
     div#header
       h1
-        font: #{rem(32)}/#{rem(40)} 'Questrial', sans-serif;
+        font: #{rem(32)}/#{rem(40)} 'Questrial', sans-serif
       & + div table tbody tr td div#bgcontent
         div div:not(.gavinprint) table + table
           position: absolute
@@ -48,5 +48,21 @@ body
           br
             display: none
 
+div#BLBanlist_div
+  ol li table tbody tr td ul
+    *:not(li)
+      display: none
+    li
+      position: relative
+      strike
+        &:after
+          position: absolute
+          right: 0
+          display: inline-block
+          content: "Unbanned"
+
+.gavinprint
+  font[size="+1"]
+    font: #{rem(28)}/#{rem(36)} 'Questrial', sans-serif
 p
   font: #{rem(16)}/#{rem(24)} 'Lora', serif
