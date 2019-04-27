@@ -28,5 +28,5 @@ body {
             body center div#header + div > table tbody tr td > div#bgcontent > div + font {
               display: none; }
 
-body center div#header {
-  font: 3rem/3.25rem "Questrial", sans-serif; }
+body center div#header h1 {
+  font: 2rem/2.5rem "Questrial", sans-serif; }
