@@ -3,7 +3,8 @@ body {
   margin: 0;
   background-color: transparent; }
   body center {
-    text-align: left; }
+    text-align: left;
+    padding-top: 0.0625rem; }
     body center div#header {
       position: relative !important;
       width: auto !important;
@@ -13,7 +14,6 @@ body {
       background: none !important;
       color: #000 !important; }
       body center div#header h1 {
-        position: relative;
         top: auto !important; }
       body center div#header + div {
         margin: 0 !important; }
