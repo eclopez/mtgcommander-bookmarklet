@@ -37,3 +37,6 @@ body center div#header + div table tbody tr td div#bgcontent div div:not(.gavinp
 
 body center div#header + div table tbody tr td div#bgcontent font.subheader font br {
   display: none; }
+
+p {
+  font: 1rem/1.5rem "Lora", serif; }
