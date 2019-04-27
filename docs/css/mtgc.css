@@ -35,5 +35,5 @@ body center div#header + div table tbody tr td div#bgcontent div div:not(.gavinp
   position: absolute;
   bottom: 0; }
 
-body center div#header + div table tbody tr td div#bgcontent div div font.subheader font br {
+body center div#header + div table tbody tr td div#bgcontent font.subheader font br {
   display: none; }
