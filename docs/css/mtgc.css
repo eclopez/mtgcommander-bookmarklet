@@ -38,7 +38,7 @@ body center div#header + div table tbody tr td div#bgcontent div div:not(.gavinp
 body center div#header + div table tbody tr td div#bgcontent font.subheader font br {
   display: none; }
 
-div#BLBanlist_div ol li table tbody tr td ul *:not(li) {
+div#BLBanlist_div ol li table tbody tr td ul > *:not(li) {
   display: none; }
 
 div#BLBanlist_div ol li table tbody tr td ul li {
