@@ -50,10 +50,11 @@ body
 
 div#BLBanlist_div
   ol li table tbody tr td ul
-    & > *:not(li)
-      display: none
+    font-size: 0
     li
       position: relative
+      font-size: #{rem(16)}
+      line-height: #{rem(24)}
       strike
         &:after
           position: absolute

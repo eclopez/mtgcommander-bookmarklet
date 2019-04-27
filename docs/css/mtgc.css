@@ -38,16 +38,17 @@ body center div#header + div table tbody tr td div#bgcontent div div:not(.gavinp
 body center div#header + div table tbody tr td div#bgcontent font.subheader font br {
   display: none; }
 
-div#BLBanlist_div ol li table tbody tr td ul > *:not(li) {
-  display: none; }
-
-div#BLBanlist_div ol li table tbody tr td ul li {
-  position: relative; }
-  div#BLBanlist_div ol li table tbody tr td ul li strike:after {
-    position: absolute;
-    right: 0;
-    display: inline-block;
-    content: "Unbanned"; }
+div#BLBanlist_div ol li table tbody tr td ul {
+  font-size: 0; }
+  div#BLBanlist_div ol li table tbody tr td ul li {
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.5rem; }
+    div#BLBanlist_div ol li table tbody tr td ul li strike:after {
+      position: absolute;
+      right: 0;
+      display: inline-block;
+      content: "Unbanned"; }
 
 .gavinprint font[size="+1"] {
   font: 1.75rem/2.25rem "Questrial", sans-serif; }
