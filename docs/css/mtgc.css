@@ -31,9 +31,9 @@ body {
 body center div#header h1 {
   font: 2rem/2.5rem "Questrial", sans-serif; }
 
-body center + div table tbody tr td div#bgcontent > div div:first-child table:nth-child(2) {
+body center div#header + div table tbody tr td div#bgcontent > div div:first-child table:nth-child(2) {
   position: absolute;
   bottom: 0; }
 
-body center + div table tbody tr td div#bgcontent > font.subheader font br {
+body center div#header + div table tbody tr td div#bgcontent > font.subheader font br {
   display: none; }
